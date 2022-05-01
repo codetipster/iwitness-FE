@@ -1,8 +1,11 @@
 import { useState } from 'react'
+//error message handler
 import { toast } from 'react-toastify'
+import 'react-toastify/dist/ReactToastify.css'
 import { Link, useNavigate } from 'react-router-dom'
+//enables signin
 import { getAuth, signInWithEmailAndPassword } from 'firebase/auth'
-import OAuth from '../components/OAuth'
+//import OAuth from '../components/OAuth'
 import { ReactComponent as ArrowRightIcon } from '../assets/svg/keyboardArrowRightIcon.svg'
 import visibilityIcon from '../assets/svg/visibilityIcon.svg'
 
@@ -32,7 +35,7 @@ function SignIn() {
 
     try {
       const auth = getAuth()
-
+      //keeping the promise as userCredential
       const userCredential = await signInWithEmailAndPassword(
         auth,
         email,
@@ -94,7 +97,7 @@ function SignIn() {
           </div>
         </form>
 
-        <OAuth />
+        
 
         <Link to='/sign-up' className='registerLink'>
           Sign Up Instead
