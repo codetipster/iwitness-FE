@@ -7,6 +7,7 @@ import SignUp from './pages/SignUp'
 import ForgotPassword from './pages/ForgotPassword'
 import Profile from './pages/Profile'
 import Navbar from './components/Navbar'
+import Publications from './pages/PublicationsCategory'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
        <Router>
         <Routes>
           <Route path='/' element={<Explore />} />
+          <Route path='/publications/:publicationName' element={<Publications />} />
           <Route path='/profile' element={<PrivateRoute />}>
              <Route path='/profile' element={<Profile />} />
           </Route> 
