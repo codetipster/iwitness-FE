@@ -10,8 +10,7 @@ An application used to create and publish articles for a wide readership, built 
 
 ## Project Screen Shot(s)
 A more extensive version of this application can be found here (https://github.com/codetipster/iwitness-frontend)-both versions are being developed concurrently.
-![Architecture]
-(/src/assets/jpg/Screenshot 2022-05-02 at 15.01.42.png)
+![Architecture](http://Users/snzekwe/Desktop/Helsinki/mediacom/src/assets/jpg/Screenshot 2022-05-02 at 15.01.42.png)
 
 
 ## Installation and Setup Instructions 
@@ -46,4 +45,4 @@ Originally We wanted to build an application that allowed users to create accoun
 
 One of the main challenges I ran into as the lead frontend engineer on this project was in Authentication and ofcourse CSS(Lol). This lead me to spend a few days on a research spike into OAuth, Auth0, and two-factor authentication using Firebase or other third party provider stacks, eventually i solved this.
 
-At the end of the day, the technologies implemented in this project are React, React-Router 6.3, Redux,React-toastify , and a significant amount of VanillaJS, JSX, and CSS. I chose to use the `create-react-app` boilerplate to minimize initial setup and invest more time in diving into weird technological rabbit holes. In the other iteration of this project(https://github.com/codetipster/iwitness-frontend), which i am equally developing in concurrence with this one, i have decided to handroll most of the things i achieved with react-toastify and firebase here manually on my own and even though it has proven to be a lot tougher than i originally anticipated, i am willing to keep working at it regardless of the challenges.
+At the end of the day, the technologies implemented in this project are React, React-Router 6.3, git and github, Redux,React-toastify , and a significant amount of VanillaJS, JSX, and CSS. I chose to use the `create-react-app` boilerplate to minimize initial setup and invest more time in diving into weird technological rabbit holes. In the other iteration of this project(https://github.com/codetipster/iwitness-frontend), which i am equally developing in concurrence with this one, i have decided to handroll most of the things i achieved with react-toastify and firebase here manually on my own and even though it has proven to be a lot tougher than i originally anticipated, i am willing to keep working at it regardless of the challenges.
