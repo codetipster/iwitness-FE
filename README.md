@@ -10,7 +10,7 @@ An application used to create and publish articles for a wide readership, built 
 
 ## Project Screen Shot(s)
 A more extensive version of this application can be found here (https://github.com/codetipster/iwitness-frontend)-both versions are being developed concurrently.
-![Architecture](http://Users/snzekwe/Desktop/Helsinki/mediacom/src/assets/jpg/Screenshot 2022-05-02 at 15.01.42.png)
+![Architecture](http://Users/snzekwe/Desktop/Helsinki/mediacom/src/assets/jpg/architecture.png)
 
 
 ## Installation and Setup Instructions 
