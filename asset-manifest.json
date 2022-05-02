@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/iwitness-FE/static/css/main.450a81bf.css",
+    "main.js": "/iwitness-FE/static/js/main.81c35cd1.js",
+    "index.html": "/iwitness-FE/index.html",
+    "static/media/badgeIcon.svg": "/iwitness-FE/static/media/badgeIcon.6a60b5bc1167fef5e6d0.svg",
+    "static/media/shareIcon.svg": "/iwitness-FE/static/media/shareIcon.cbe96fad91328dae35508b04182f4a7e.svg",
+    "static/media/exploreIcon.svg": "/iwitness-FE/static/media/exploreIcon.46f5bb6905dae22016100504332a86a9.svg",
+    "static/media/localOfferIcon.svg": "/iwitness-FE/static/media/localOfferIcon.2f90605bf28080e608c8ce11d8b9eb5e.svg",
+    "static/media/lockIcon.svg": "/iwitness-FE/static/media/lockIcon.a38a1b56168bd1199de4.svg",
+    "static/media/visibilityIcon.svg": "/iwitness-FE/static/media/visibilityIcon.d42e2dff8b09be94d6d209f0e86cf2d3.svg",
+    "static/media/personOutlineIcon.svg": "/iwitness-FE/static/media/personOutlineIcon.f67a0190b977d851bec55fc9c520365a.svg",
+    "static/media/personIcon.svg": "/iwitness-FE/static/media/personIcon.60c17ce32265f6273287.svg",
+    "static/media/keyboardArrowRightIcon.svg": "/iwitness-FE/static/media/keyboardArrowRightIcon.8cee54bec29003f4c3faa8f2acfa6de8.svg",
+    "main.450a81bf.css.map": "/iwitness-FE/static/css/main.450a81bf.css.map",
+    "main.81c35cd1.js.map": "/iwitness-FE/static/js/main.81c35cd1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.450a81bf.css",
+    "static/js/main.81c35cd1.js"
+  ]
+}
