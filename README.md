@@ -30,7 +30,7 @@ To Start Server:
 To Visit App:
 
 `localhost:3000`  In development environment
-``  hosted version on netlify
+``  hosted version on githubpages at https://codetipster.github.io/iwitness-FE/
 
 ## Reflection
 
