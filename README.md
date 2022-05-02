@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+## Project Name & Pitch
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+iWitness 
 
-## Available Scripts
+An application used to create and publish articles for a wide readership, built with React, Redux, JavaScript, and CSS.
 
-In the project directory, you can run:
+## Project Status
 
-### `npm start`
+(WIP)-This project is currently in development. Users can get authenticated by registering an account and signing up, the can view their profile page and make edit to their information, they can also log out and explore publication category page. profile page accessibility happens only when they are signed in to their account, The password recovery functionality also works perfectly too. Functionalities to enable publication creation, gain access to market place for articles and request publishing house is in progress.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Project Screen Shot(s)
+A more extensive version of this application can be found here (https://github.com/codetipster/iwitness-frontend)-both versions are being developed concurrently.
+![Architecture]
+(/Users/snzekwe/Desktop/Helsinki/mediacom/src/assets/jpg/Screenshot 2022-05-02 at 15.01.42.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## Installation and Setup Instructions 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Clone down this repository. You will need `node` and `npm` installed globally on your machine.  
 
-### `npm run build`
+Installation:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+`npm install`  
+ 
+To Start Server:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+`npm start`  
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+To Visit App:
 
-### `npm run eject`
+`localhost:3000`  In development environment
+``  hosted version on netlify
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Reflection
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+  - What have you worked on? 
+  - What did you set out to build?
+  - Why was this project challenging and therefore a really good learning experience?
+  - What were some unexpected obstacles?
+  - What tools did you use to implement this project?
+      - This might seem obvious because you are IN this codebase, but to all other humans now is the time to talk about why you chose webpack instead of create react app, or D3, or vanilla JS instead of a framework etc. Brag about your choices and justify them here.  
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+#### Example:  
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+This was a semester long project built during my Frontend Engineering module at CODE. The Project goals included using technologies with special interest on Frontend technologies like React which i have learned up until this point and familiarized myself with its concepts. As an official code project, i worked in a team with two other students who focused exclusively on the backend for this interface. 
 
-## Learn More
+Originally We wanted to build an application that allowed users to create account to the platform, write publications or contents and decide if they share their articles for a paid viewership or under the free tier-public. 
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+One of the main challenges I ran into as the lead frontend engineer on this project was in Authentication and ofcourse CSS(Lol). This lead me to spend a few days on a research spike into OAuth, Auth0, and two-factor authentication using Firebase or other third party provider stacks, eventually i solved this.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+At the end of the day, the technologies implemented in this project are React, React-Router 6.3, Redux,React-toastify , and a significant amount of VanillaJS, JSX, and CSS. I chose to use the `create-react-app` boilerplate to minimize initial setup and invest more time in diving into weird technological rabbit holes. In the other iteration of this project(https://github.com/codetipster/iwitness-frontend), which i am equally developing in concurrence with this one, i have decided to handroll most of the things i achieved with react-toastify and firebase here manually on my own and even though it has proven to be a lot tougher than i originally anticipated, i am willing to keep working at it regardless of the challenges.
