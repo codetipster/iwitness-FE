@@ -11,7 +11,7 @@ An application used to create and publish articles for a wide readership, built 
 ## Project Screen Shot(s)
 A more extensive version of this application can be found here (https://github.com/codetipster/iwitness-frontend)-both versions are being developed concurrently.
 ![Architecture]
-(/Users/snzekwe/Desktop/Helsinki/mediacom/src/assets/jpg/Screenshot 2022-05-02 at 15.01.42.png)
+(/src/assets/jpg/Screenshot 2022-05-02 at 15.01.42.png)
 
 
 ## Installation and Setup Instructions 
@@ -38,9 +38,7 @@ To Visit App:
   - Why was this project challenging and therefore a really good learning experience?
   - What were some unexpected obstacles?
   - What tools did you use to implement this project?
-      - This might seem obvious because you are IN this codebase, but to all other humans now is the time to talk about why you chose webpack instead of create react app, or D3, or vanilla JS instead of a framework etc. Brag about your choices and justify them here.  
-
-#### Example:  
+ 
 
 This was a semester long project built during my Frontend Engineering module at CODE. The Project goals included using technologies with special interest on Frontend technologies like React which i have learned up until this point and familiarized myself with its concepts. As an official code project, i worked in a team with two other students who focused exclusively on the backend for this interface. 
 
